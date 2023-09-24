@@ -1,6 +1,18 @@
+import { NavLink } from "react-router-dom";
+import "./navbar-styles.css";
+
 function Navbar() {
+  const links = (
+    <nav id="sidebar" className="flex gap-10">
+      <NavLink to="/">Home</NavLink>
+
+      <NavLink to="/donation">Donation</NavLink>
+
+      <NavLink to="/statistics">Statistics</NavLink>
+    </nav>
+  );
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 px-20">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -23,15 +35,7 @@ function Navbar() {
             tabIndex={0}
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
-            <li>
-              <a>Home</a>
-            </li>
-            <li>
-              <a>Donation</a>
-            </li>
-            <li>
-              <a>Statistics</a>
-            </li>
+            {links}
           </ul>
         </div>
         <div className="md:w-40 w-auto md:justify-center">
@@ -39,17 +43,7 @@ function Navbar() {
         </div>
       </div>
       <div className="navbar-end hidden lg:flex">
-        <ul className="menu menu-horizontal px-1">
-          <li>
-            <a>Home</a>
-          </li>
-          <li>
-            <summary>Donation</summary>
-          </li>
-          <li>
-            <a>Statistics</a>
-          </li>
-        </ul>
+        <ul className="menu menu-horizontal px-1 gap-5">{links}</ul>
       </div>
     </div>
   );
