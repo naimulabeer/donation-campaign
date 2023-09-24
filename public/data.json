@@ -1,5 +1,6 @@
 [
   {
+    "id": 1,
     "picture": "https://i.ibb.co/MSfPvrm/Health.png",
     "title": "Clean water for children",
     "category": "Health",
@@ -7,9 +8,10 @@
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
     "description": "Discover a world of wellness with our range of health products. From vitamins and supplements to fitness equipment, we've got everything you need to lead a healthy and active lifestyle. Take the first step towards a healthier you today!",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 2,
     "picture": "https://i.ibb.co/3s2YkC5/Education.png",
     "title": "Good education",
     "category": "Education",
@@ -17,9 +19,10 @@
     "card_bg": "#FF444A26",
     "text_button_bg": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 3,
     "picture": "https://i.ibb.co/Wy31rr0/Clothing.png",
     "title": "Used Clothing Drive",
     "category": "Clothing",
@@ -27,9 +30,10 @@
     "card_bg": "#79C23F26",
     "text_button_bg": "#79C23F",
     "description": "Elevate your style with our fashionable clothing collection. From casual wear to formal attire, we offer the latest trends and timeless classics. Find the perfect outfit for any occasion and express your unique sense of fashion.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 4,
     "picture": "https://i.ibb.co/zhfmjWs/Food.png",
     "title": "Better Food for Everyone",
     "category": "Food",
@@ -37,9 +41,10 @@
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
     "description": "Indulge in the flavors of our gourmet food selection. From savory snacks to delectable desserts, our curated offerings will tantalize your taste buds. Whether you're a foodie or just looking for a tasty treat, we have something for everyone.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 5,
     "picture": "https://i.ibb.co/zhfmjWs/Food.png",
     "title": "Better Food for Everyone",
     "category": "Food",
@@ -47,9 +52,10 @@
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
     "description": "Indulge in the flavors of our gourmet food selection. From savory snacks to delectable desserts, our curated offerings will tantalize your taste buds. Whether you're a foodie or just looking for a tasty treat, we have something for everyone.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 6,
     "picture": "https://i.ibb.co/Wy31rr0/Clothing.png",
     "title": "Used Clothing Drive",
     "category": "Clothing",
@@ -57,9 +63,10 @@
     "card_bg": "#79C23F26",
     "text_button_bg": "#79C23F",
     "description": "Elevate your style with our fashionable clothing collection. From casual wear to formal attire, we offer the latest trends and timeless classics. Find the perfect outfit for any occasion and express your unique sense of fashion.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 7,
     "picture": "https://i.ibb.co/3s2YkC5/Education.png",
     "title": "Good education",
     "category": "Education",
@@ -67,9 +74,10 @@
     "card_bg": "#FF444A26",
     "text_button_bg": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 8,
     "picture": "https://i.ibb.co/MSfPvrm/Health.png",
     "title": "Clean water for children",
     "category": "Health",
@@ -77,9 +85,10 @@
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
     "description": "Discover a world of wellness with our range of health products. From vitamins and supplements to fitness equipment, we've got everything you need to lead a healthy and active lifestyle. Take the first step towards a healthier you today!",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 9,
     "picture": "https://i.ibb.co/MSfPvrm/Health.png",
     "title": "Clean water for children",
     "category": "Health",
@@ -87,9 +96,10 @@
     "card_bg": "#0052FF26",
     "text_button_bg": "#0052FF",
     "description": "Discover a world of wellness with our range of health products. From vitamins and supplements to fitness equipment, we've got everything you need to lead a healthy and active lifestyle. Take the first step towards a healthier you today!",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 10,
     "picture": "https://i.ibb.co/3s2YkC5/Education.png",
     "title": "Good education",
     "category": "Education",
@@ -97,9 +107,10 @@
     "card_bg": "#FF444A26",
     "text_button_bg": "#FF444A",
     "description": "There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 11,
     "picture": "https://i.ibb.co/Wy31rr0/Clothing.png",
     "title": "Used Clothing Drive",
     "category": "Clothing",
@@ -107,9 +118,10 @@
     "card_bg": "#79C23F26",
     "text_button_bg": "#79C23F",
     "description": "Elevate your style with our fashionable clothing collection. From casual wear to formal attire, we offer the latest trends and timeless classics. Find the perfect outfit for any occasion and express your unique sense of fashion.",
-    "price": "$290.00"
+    "price": "290.00"
   },
   {
+    "id": 12,
     "picture": "https://i.ibb.co/zhfmjWs/Food.png",
     "title": "Better Food for Everyone",
     "category": "Food",
@@ -117,6 +129,6 @@
     "card_bg": "#F8714726",
     "text_button_bg": "#F87147",
     "description": "Indulge in the flavors of our gourmet food selection. From savory snacks to delectable desserts, our curated offerings will tantalize your taste buds. Whether you're a foodie or just looking for a tasty treat, we have something for everyone.",
-    "price": "$290.00"
+    "price": "290.00"
   }
 ]
