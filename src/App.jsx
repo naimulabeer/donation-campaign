@@ -4,7 +4,6 @@ import Root from "./components/Root/Root";
 import Error from "./pages/Error/Error";
 import Donation from "./pages/Donation/Donation";
 import Statistics from "./pages/Statistics/Statistics";
-import Search from "./components/Search/Search";
 import Home from "./pages/Home/Home";
 
 function App() {
@@ -16,11 +15,8 @@ function App() {
       children: [
         {
           path: "/",
-          element: <Search />,
-        },
-        {
-          path: "/",
           element: <Home />,
+          loader: () => fetch("/data.json"),
         },
         {
           path: "/donation",

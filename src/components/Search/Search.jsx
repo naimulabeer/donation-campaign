@@ -11,7 +11,7 @@ function Search() {
         className="relative bg-cover bg-center h-96 px-5"
         style={styles.backgroundImage}
       ></div>
-      <div className="absolute inset-20 flex items-center justify-center">
+      <div className="absolute inset-60 flex items-center justify-center">
         <div className="text-center gap-2">
           <h1 className="md:text-4xl font-semibold text-gray-800 mb-4">
             I Grow By Helping People In Need
