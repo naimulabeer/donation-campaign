@@ -20,4 +20,13 @@ const saveDonationApplication = (id) => {
   }
 };
 
-export { getStoredDonationApplication, saveDonationApplication };
+const getDonationStatus = (id) => {
+  const storedDonationApplication = getStoredDonationApplication();
+  return storedDonationApplication.includes(id);
+};
+
+export {
+  getStoredDonationApplication,
+  saveDonationApplication,
+  getDonationStatus,
+};

@@ -1,5 +1,8 @@
 import { useLoaderData, useParams } from "react-router-dom";
-import { saveDonationApplication } from "../../utils/localStorage";
+import {
+  getDonationStatus,
+  saveDonationApplication,
+} from "../../utils/localStorage";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
@@ -11,13 +14,24 @@ function DonationDetails() {
   const donation = donations.find((donation) => donation.id === idInt);
 
   const handleDonation = () => {
-    saveDonationApplication(idInt);
-    toast.success("You have donated successfully", {
-      position: "top-center",
-      autoClose: 5000,
-      hideProgressBar: true,
-      progress: undefined,
-    });
+    const alreadyDonated = getDonationStatus(idInt);
+
+    if (alreadyDonated) {
+      toast.warning("You have already donated here!", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: true,
+        progress: undefined,
+      });
+    } else {
+      saveDonationApplication(idInt);
+      toast.success("You have donated successfully", {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: true,
+        progress: undefined,
+      });
+    }
   };
 
   return (

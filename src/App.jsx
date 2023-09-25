@@ -22,6 +22,7 @@ function App() {
         {
           path: "/donation",
           element: <Donation />,
+          loader: () => fetch("/data.json"),
         },
         {
           path: "/donation/:id",
