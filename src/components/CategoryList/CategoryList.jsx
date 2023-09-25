@@ -1,30 +1,37 @@
+import { Link } from "react-router-dom";
+
 function CategoryList({ donation }) {
-  const { title, category, picture } = donation;
+  const { id, title, category, picture, text_button_bg, card_bg, category_bg } =
+    donation;
   return (
-    <div className="">
+    <Link to={`/donation/${id}`}>
       <div
-        className="card lg:w-[312px] lg:h-[283px]"
-        style={{ backgroundColor: donation.category_bg }}
+        className="card lg:w-[312px] "
+        style={{ backgroundColor: category_bg }}
       >
         <figure>
-          <img className="w-full" src={donation.picture} alt="Category" />
+          <img
+            className="lg:w-[312px] lg:h-[200px] w-full"
+            src={picture}
+            alt="Category"
+          />
         </figure>
         <div className="card-body">
           <h2
             style={{
-              color: donation.text_button_bg,
-              backgroundColor: donation.card_bg,
+              color: text_button_bg,
+              backgroundColor: card_bg,
             }}
             className="border-0 rounded-md px-2 py-1 w-fit"
           >
-            {donation.category}
+            {category}
           </h2>
-          <h2 style={{ color: donation.text_button_bg }} className="card-title">
-            {donation.title}
+          <h2 style={{ color: text_button_bg }} className="card-title">
+            {title}
           </h2>
         </div>
       </div>
-    </div>
+    </Link>
   );
 }
 

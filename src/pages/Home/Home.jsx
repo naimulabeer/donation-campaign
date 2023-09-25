@@ -8,8 +8,8 @@ function Home() {
   return (
     <>
       <Search />
-      <div className="mt-12">
-        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 px-4 ">
+      <div className="mt-12 mr-2">
+        <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 px-4  ">
           {donations.map((donation) => (
             <CategoryList key={donation.id} donation={donation} />
           ))}
