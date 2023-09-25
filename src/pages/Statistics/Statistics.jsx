@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { getStoredDonationApplication } from "../../utils/localStorage";
-import { PieChart, Pie, Cell, Label, ResponsiveContainer } from "recharts";
+import { PieChart, Pie, Cell } from "recharts";
 
 function Statistics() {
   const [donations, setDonations] = useState([]);
