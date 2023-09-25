@@ -24,12 +24,11 @@ function Donation() {
       }
       setAppliedDonations(donationsApplied);
       setDisplayDonations(donationsApplied);
-      console.log(donations, storeDonationIds, donationsApplied);
     }
   }, [donations]);
 
   return (
-    <div className="mt-10 flex flex-col px-20 py-10">
+    <div className="mt-10 flex flex-col md:px-20 md:py-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
         {displayDonations.slice(0, donationLength).map((donation) => (
           <DonationPage key={donation.id} donation={donation} />
