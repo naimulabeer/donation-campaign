@@ -1,9 +1,9 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navbar-styles.css";
 
 function Navbar() {
   const links = (
-    <nav id="sidebar" className="flex gap-10">
+    <nav id="sidebar" className="flex flex-col lg:flex-row lg:gap-10 gap-2">
       <NavLink to="/">Home</NavLink>
 
       <NavLink to="/donation">Donation</NavLink>
@@ -12,7 +12,7 @@ function Navbar() {
     </nav>
   );
   return (
-    <div className="navbar bg-base-100 px-20">
+    <div className="navbar bg-base-100 lg:px-20">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -38,9 +38,9 @@ function Navbar() {
             {links}
           </ul>
         </div>
-        <div className="md:w-40 w-auto md:justify-center">
+        <Link to="/" className="md:w-40 md:justify-center">
           <img src="/Logo.png" alt="Logo" />
-        </div>
+        </Link>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 gap-5">{links}</ul>

@@ -28,7 +28,7 @@ function Home() {
         {noResults ? (
           <p className="text-center text-gray-500">No results found</p>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-10 px-4  ">
+          <div className="grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-12 px-4  ">
             {filteredDonations.map((donation) => (
               <CategoryList key={donation.id} donation={donation} />
             ))}
