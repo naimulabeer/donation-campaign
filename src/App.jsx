@@ -5,6 +5,7 @@ import Error from "./pages/Error/Error";
 import Donation from "./pages/Donation/Donation";
 import Statistics from "./pages/Statistics/Statistics";
 import Search from "./components/Search/Search";
+import Home from "./pages/Home/Home";
 
 function App() {
   const router = createBrowserRouter([
@@ -16,6 +17,10 @@ function App() {
         {
           path: "/",
           element: <Search />,
+        },
+        {
+          path: "/",
+          element: <Home />,
         },
         {
           path: "/donation",

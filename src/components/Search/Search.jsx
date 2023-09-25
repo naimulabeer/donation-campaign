@@ -1,15 +1,12 @@
 function Search() {
   const styles = {
-    container: {
-      background: "#FFFFFFF2",
-    },
     backgroundImage: {
       backgroundImage: "url('/Rectangle 4281.png')",
       opacity: 0.1,
     },
   };
   return (
-    <div className="bg-white" style={styles.container}>
+    <div className="bg-[#FFFFFFF2]">
       <div
         className="relative bg-cover bg-center h-96 px-5"
         style={styles.backgroundImage}
